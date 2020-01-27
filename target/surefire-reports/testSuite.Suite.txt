@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+Test set: testSuite.Suite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 96.814 s <<< FAILURE! - in testSuite.Suite
+testeAlterarConta(tests.TestContaAlteracao)  Time elapsed: 18.032 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//tr[1]/td[-1]"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-TP35FDP', ip: '192.168.15.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\CAIONI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49676}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3a9866e275dc0690cc9ed973da6ac5ba
+*** Element info: {Using=xpath, value=.//tr[1]/td[-1]}
+	at tests.TestContaAlteracao.testeAlterarConta(TestContaAlteracao.java:17)
+
+criarMovimentacao(tests.TestMovimentacaoCriacao)  Time elapsed: 17.019 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Criar Movimentação"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-TP35FDP', ip: '192.168.15.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\CAIONI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 48f52e7cd313e36ace3fefd8ca9cedba
+*** Element info: {Using=link text, value=Criar Movimentação}
+	at tests.TestMovimentacaoCriacao.criarMovimentacao(TestMovimentacaoCriacao.java:16)
+
+excluirMovimentacao(tests.TestResumoMensalExcluiMovimentacao)  Time elapsed: 19.804 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='glyphicon glyphicon-remove-circle']"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-TP35FDP', ip: '192.168.15.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\CAIONI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49764}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9136c58722a575431bbcb9a3040f7986
+*** Element info: {Using=xpath, value=//span[@class='glyphicon glyphicon-remove-circle']}
+	at tests.TestResumoMensalExcluiMovimentacao.excluirMovimentacao(TestResumoMensalExcluiMovimentacao.java:16)
+
+testeExcluirConta(tests.TestContaExclusao)  Time elapsed: 18.133 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//tr[-1]/td[-1]"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-TP35FDP', ip: '192.168.15.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\CAIONI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dcbb0fb2d1df551e2780f467a4a90a95
+*** Element info: {Using=xpath, value=.//tr[-1]/td[-1]}
+	at tests.TestContaExclusao.testeExcluirConta(TestContaExclusao.java:17)
+
